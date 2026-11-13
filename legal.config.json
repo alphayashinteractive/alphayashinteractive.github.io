@@ -1,0 +1,28 @@
+{
+  "_readme": "Fill every value that is still in [square brackets], then run: npm run legal (check with npm run legal:check). The same text is built into the app (Settings > Privacy Policy / Terms) and written as static pages to legal/public/ for you to host at a public URL. cloudSave: true describes the optional Google sign-in (cloud save); set it to false only if you build the app without Firebase. cloudProviders must match the \"providers\" in native.config.json (Google only by default). cloudRegion is the Firestore location you pick in the Firebase console and can never be changed there later. effectiveDate is written YYYY-MM-DD. Everything in this file except the underscore line is published on your public pages, so do not put a personal email or home address here.",
+  "appName": "Queen’s Arrow Escape",
+  "developerName": "AlphaYashInteractive",
+  "contactEmail": "alphayashinteractive@gmail.com",
+  "mailingAddress": "Bangalore, India",
+  "website": "https://alphayashinteractive.github.io",
+  "privacyUrl": "https://alphayashinteractive.github.io/privacy.html",
+  "termsUrl": "https://alphayashinteractive.github.io/terms.html",
+  "deleteAccountUrl": "https://alphayashinteractive.github.io/delete-account.html",
+  "governingLaw": "the laws of India",
+  "courts": "the courts of Bangalore, Karnataka, India",
+  "effectiveDate": "2026-11-13",
+  "minimumAge": 13,
+  "euAge": 16,
+  "analytics": {
+    "provider": "none",
+    "name": "",
+    "retentionMonths": 14
+  },
+  "remoteConfig": false,
+  "appleStore": true,
+  "cloudSave": true,
+  "cloudProviders": [
+    "google"
+  ],
+  "cloudRegion": "asia-south1"
+}
